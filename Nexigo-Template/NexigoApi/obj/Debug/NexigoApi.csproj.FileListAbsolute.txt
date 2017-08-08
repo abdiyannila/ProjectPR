@@ -1,0 +1,130 @@
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\ApplicationInsights.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\csc.exe
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\vbc.exe
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\NexigoApi.dll.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\NexigoApi.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\NexigoApi.pdb
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.pdb
+D:\Nexigo-Template\NexigoApi\bin\ApplicationInsights.config
+D:\Nexigo-Template\NexigoApi\bin\roslyn\csc.exe
+D:\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Nexigo-Template\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+D:\Nexigo-Template\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\Nexigo-Template\NexigoApi\bin\roslyn\vbc.exe
+D:\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe
+D:\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+D:\Nexigo-Template\NexigoApi\bin\NexigoApi.dll.config
+D:\Nexigo-Template\NexigoApi\bin\NexigoApi.dll
+D:\Nexigo-Template\NexigoApi\bin\NexigoApi.pdb
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.dll
+D:\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.dll
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Http.dll
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.dll
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.xml
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+D:\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.xml
+D:\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.xml
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Http.xml
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.xml
+D:\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+D:\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.dll
+D:\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.pdb
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Cors.dll
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Http.Cors.dll
+D:\Nexigo-Template\NexigoApi\bin\System.Web.Http.Cors.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\ApplicationInsights.config
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\csc.exe
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\System.Collections.Immutable.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\System.Reflection.Metadata.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\vbc.exe
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\roslyn\VBCSCompiler.exe.config
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\NexigoApi.dll.config
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\NexigoApi.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\NexigoApi.pdb
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\FlowQuestServerActivity.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Cors.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Http.Cors.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Http.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.DependencyCollector.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.Web.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.AI.WindowsServer.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.ApplicationInsights.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Http.Cors.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\Newtonsoft.Json.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Net.Http.Formatting.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Http.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\bin\System.Web.Http.WebHost.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.csprojResolveAssemblyReference.cache
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\NexigoApi\obj\Debug\NexigoApi.pdb

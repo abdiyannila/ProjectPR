@@ -1,0 +1,61 @@
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\obj\Debug\Nexigo.csprojResolveAssemblyReference.cache
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Nexigo.dll.config
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Nexigo.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Nexigo.pdb
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Nexigo.Resources.Server.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Owin.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\obj\Debug\Nexigo.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\obj\Debug\Nexigo.pdb
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.FileSystems.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.StaticFiles.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.FileSystems.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Microsoft.Owin.StaticFiles.xml
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Newtonsoft.Json.dll
+D:\Navcore\Nexigo\Source\Nexigo-Template\Nexigo\bin\Newtonsoft.Json.xml
+D:\Nexigo-Template\Nexigo\bin\Nexigo.dll.config
+D:\Nexigo-Template\Nexigo\bin\Nexigo.dll
+D:\Nexigo-Template\Nexigo\bin\Nexigo.pdb
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.dll
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.FileSystems.dll
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.StaticFiles.dll
+D:\Nexigo-Template\Nexigo\bin\Newtonsoft.Json.dll
+D:\Nexigo-Template\Nexigo\bin\Nexigo.Resources.Server.dll
+D:\Nexigo-Template\Nexigo\bin\Owin.dll
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.xml
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.FileSystems.xml
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Nexigo-Template\Nexigo\bin\Microsoft.Owin.StaticFiles.xml
+D:\Nexigo-Template\Nexigo\bin\Newtonsoft.Json.xml
+D:\Nexigo-Template\Nexigo\obj\Debug\Nexigo.csprojResolveAssemblyReference.cache
+D:\Nexigo-Template\Nexigo\obj\Debug\Nexigo.dll
+D:\Nexigo-Template\Nexigo\obj\Debug\Nexigo.pdb
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Nexigo.dll.config
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Nexigo.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Nexigo.pdb
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.FileSystems.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.StaticFiles.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Newtonsoft.Json.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Nexigo.Resources.Server.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Owin.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Net.Http.Formatting.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Web.Cors.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Web.Http.Cors.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Web.Http.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.FileSystems.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Microsoft.Owin.StaticFiles.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\Newtonsoft.Json.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Net.Http.Formatting.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Web.Http.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\bin\System.Web.Http.Cors.xml
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\obj\Debug\Nexigo.csprojResolveAssemblyReference.cache
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\obj\Debug\Nexigo.dll
+D:\MI\VB C#\Nexigo-Template 3\Nexigo-Template\Nexigo\obj\Debug\Nexigo.pdb

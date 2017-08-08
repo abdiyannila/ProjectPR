@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="aa381b23-dfb9-4549-9447-882a1cb2ce08" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FlowQuestWorkflowService.xsd" MetadataType="Schema" ID="e5d4d982-ff8c-4a04-8502-a8c9c87d211b" SourceId="1" SourceUrl="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd0" />
+    <MetadataFile FileName="FlowQuestWorkflowService1.xsd" MetadataType="Schema" ID="50b33313-65c1-421e-bef3-b4ff43811d6d" SourceId="1" SourceUrl="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd1" />
+    <MetadataFile FileName="FlowQuestWorkflowService.wsdl" MetadataType="Wsdl" ID="9e84cbd5-8457-4d91-911a-040bd33fa099" SourceId="1" SourceUrl="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?wsdl" />
+    <MetadataFile FileName="FlowQuestWorkflowService2.xsd" MetadataType="Schema" ID="d538c355-2718-4f72-bf3a-c8411fb46554" SourceId="1" SourceUrl="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?xsd=xsd2" />
+    <MetadataFile FileName="FlowQuestWorkflowService.disco" MetadataType="Disco" ID="ab4b1a1b-0182-4508-a545-b3fe429bd34b" SourceId="1" SourceUrl="http://nextflow.navcore.com/NextflowAPI/FlowQuestWorkflowService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
