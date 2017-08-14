@@ -123,9 +123,9 @@ nexigo.widget({
                 {
                     name: 'button1', type: 'button', text: 'Search', action: 'search', icon: 'fa-login',
                     cssClass: 'xg-btn-success',
-                    action: function () {
-                        alert('Action fired')
-                    }
+                    //action: function () {
+                    //    //alert('Action fired');
+                    //}
                 },
             ]
         },

@@ -266,6 +266,8 @@
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Compile Include="Controllers\EditorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProcessController.cs" />
     <Compile Include="Controllers\RequestController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
@@ -277,6 +279,10 @@
       <DependentUpon>DatabaseProject.dbml</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginUser.cs" />
+    <Compile Include="Models\MaterialModel.cs" />
+    <Compile Include="Models\ProcessModel.cs" />
+    <Compile Include="Models\RequestModel.cs" />
+    <Compile Include="Models\SelectModel.cs" />
     <Compile Include="Models\WebReq.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

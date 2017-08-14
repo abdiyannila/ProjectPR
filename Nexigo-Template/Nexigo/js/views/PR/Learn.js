@@ -6,8 +6,16 @@
             name: 'panel1',
             type: 'panel',
             fields: [
-                { name: 'Requester_Name', text: 'Requester_Name', cols: 5, readonly: true },
-                { name: 'Requester_Position', text: 'Requester_Position', cols: 5, readonly: true }
+                //{ name: 'Requester_Name', text: 'Requester_Name', cols: 5, readonly: true },
+                //{ name: 'Requester_Position', text: 'Requester_Position', cols: 5, readonly: true },
+                {
+                    name: 'BudgetSource', text: 'Budget Source',
+                    type: 'select', cols: 6, tooltip: 'Media list', data: 'http://localhost:31604/api/user/BudgetSourceList',
+                    onChange: function (value, text) {
+                        xg.call('BudgetSource', text);
+                    }
+                },
+                { name: 'BudgetSources', text: 'Budget Sources', type: 'text', cols: 3 },
             ]
         }],
     functions: {
@@ -33,5 +41,8 @@
             xg.loading.hide();
             callback();
         }
-    }
+    },
+    BudgetSource: function (data) {
+        $('[xg-field="BudgetSources"]').val(data)
+    },
 });

@@ -171,6 +171,7 @@
     <Content Include="js\views\demo\upload.js" />
     <Content Include="js\views\demo\yearpicker.js" />
     <Content Include="js\views\home.js" />
+    <Content Include="js\views\PR\backup.js" />
     <Content Include="js\views\PR\Learn.js" />
     <Content Include="js\views\PR\ListPR.js" />
     <Content Include="js\views\PR\Login.js" />

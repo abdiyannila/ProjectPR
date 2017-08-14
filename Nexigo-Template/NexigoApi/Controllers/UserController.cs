@@ -31,7 +31,7 @@ namespace NexigoApi.Controllers
             var result = new List<SelectResult>();
             using (var dc = new DatabaseProjectDataContext())
             {
-                var users = dc.Employees.Where(o => o.StaffID != 2016022).ToList();
+                var users = dc.UserMasters.Where(o => o.StaffID != "2016022").ToList();
 
                 foreach (var user in users)
                 {
@@ -46,7 +46,7 @@ namespace NexigoApi.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult LoginUser([FromBody] Employee employee)
+        public IHttpActionResult LoginUser([FromBody] UserMaster employee)
         {
             try
             {
@@ -57,15 +57,15 @@ namespace NexigoApi.Controllers
                     using (var dc = new DatabaseProjectDataContext())
                     {
                         //var queres = (from a_loginuser in context.Employees select a_loginuser);
-                        var user = dc.Employees.Where(a => a.StaffID==employee.StaffID && a.Password==employee.Password).SingleOrDefault();
+                        var user = dc.UserMasters.Where(a => a.StaffID==employee.StaffID && a.Password==employee.Password).SingleOrDefault();
                         if (user != null)
                         {
                             result = user.Staff_Name;
                         }
-                        //else
-                        //{
-                        //    result = "No data";
-                        //}
+                        else
+                        {
+                            result = "No data";
+                        }
                         return Ok(result);
                     }
                 }
@@ -81,12 +81,12 @@ namespace NexigoApi.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult GetUserName([FromBody]int Id)
+        public IHttpActionResult GetUserName([FromBody]string id)
         {
             var result = string.Empty;
             using (var dc = new DatabaseProjectDataContext())
             {
-                var user = dc.Employees.Where(o => o.StaffID == Id).SingleOrDefault();
+                var user = dc.UserMasters.Where(o => o.StaffID == id).SingleOrDefault();
                 if (user != null)
                     result = user.Staff_Name;
                 return Ok(result);
@@ -94,41 +94,42 @@ namespace NexigoApi.Controllers
         }
 
         [HttpPost]
-        public IHttpActionResult GetUserPosition([FromBody]int Id)
+        public IHttpActionResult GetUserPosition([FromBody]string id)
         {
             var result = string.Empty;
             using (var dc = new DatabaseProjectDataContext())
             {
-                //var user = (from a_user in context.Employees
-                //            join a_level in context.Staff_Levels
-                //            on a_user.Staff_Level equals a_level.Id
-                //            where a_user.Staff_Level.Equals(Id)
-                //            select new LoginUser
-                //            {
-                //                Staff_LevelName=a_level.Field_Name
-                //            }).OrderBy(x => x.Staff_LevelName).SingleOrDefault();
-                var user = dc.Employees.Where(o => o.StaffID == Id).SingleOrDefault();
+                var user = (from a_user in context.UserMasters
+                            join a_level in context.Staff_Levels
+                            on a_user.Staff_Level equals a_level.Id
+                            where a_user.StaffID.Equals(id)
+                            select new LoginUser
+                            {
+                                Staff_LevelName = a_level.Field_Name
+                            }).SingleOrDefault();
                 if (user != null)
-                    result = user.Staff_Level.ToString();
+                    result = user.Staff_LevelName;
                 return Ok(result);
             }
         }
 
         [HttpPost]
-        public IHttpActionResult GetUserDivision([FromBody]int Id)
+        public IHttpActionResult GetUserDivision([FromBody]string id)
         {
             var result = string.Empty;
             using (var dc = new DatabaseProjectDataContext())
             {
-                var user = (from a_user in context.Employees
-                            join a_division in context.Divisions
-                            on a_user.StaffID equals Id
+                var user = (from a_user in context.UserMasters
+                            join a_divisi in context.Divisions
+                            on a_user.Division_Code equals a_divisi.Id
+                            where a_user.StaffID.Equals(id)
                             select new LoginUser
                             {
-                                Division_Name = a_division.Division_Name
-                            });
+                                Division_Name = a_divisi.Division_Name
+                            }).SingleOrDefault();
+
                 if (user != null)
-                    result = user.ToString();
+                    result = user.Division_Name;
                 return Ok(result);
             }
         }
@@ -144,13 +145,37 @@ namespace NexigoApi.Controllers
                 {
                     result.Add(new SelectResult()
                     {
-                        text=b.Owner,
+                        text=b.Field_Name,
                         value = b.Id.ToString(),
                     });
                 }
             }
             return Ok(result);
         }
+
+        //[HttpPost]
+        //public List<SelectModel> GetLocation()
+        //{
+        //    var select1 = new SelectModel
+        //    {value="First Floor",text="1",};
+
+        //    var select2 = new SelectModel
+        //    {value = "Second Floor",text = "2",};
+
+        //    var select3 = new SelectModel
+        //    { value = "Third Floor", text = "2", };
+
+        //    var select4 = new SelectModel
+        //    { value = "Fourt Floor", text = "2", };
+
+        //    var GetLocDDList = new List<SelectModel>();
+        //    GetLocDDList.Add(select1);
+        //    GetLocDDList.Add(select2);
+        //    GetLocDDList.Add(select3);
+        //    GetLocDDList.Add(select4);
+
+        //    return GetLocDDList;
+        //}
     }
 }
 
@@ -167,7 +192,7 @@ namespace NexigoApi.Controllers
 //return Ok(result);
 //var result = string.Empty;
 //var user = queres.Where(a => a.Email.Equals(email) && a.Password.Equals(password)).FirstOrDefault();
-//var result = string.Empty;Employee employee
+//var result = string.Empty;Employee employeeaa
 //var result2 = string.Empty;
 //var queres = (from a_loginuser in context.Employees select a_loginuser);
 
@@ -178,3 +203,16 @@ namespace NexigoApi.Controllers
 //    return Ok(user);
 //    //return Ok(result + result2);
 //}
+//var result = string.Empty;
+//using (var dc = new DatabaseProjectDataContext())
+//{
+//    var user = (from a_user in context.Employees
+//                join a_division in context.Divisions
+//                on a_user.StaffID equals Id
+//                select new LoginUser
+//                {
+//                    Division_Name = a_division.Division_Name
+//                });
+//    if (user != null)
+//        result = user.ToString();
+//    return Ok(result);

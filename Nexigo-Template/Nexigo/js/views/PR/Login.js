@@ -22,6 +22,7 @@
             callback();
         },
         login: function () {
+            var tempString = "";
             var employee = xg.serialize();
             window.StaffID = employee.StaffID;
             window.Password = employee.Password;
@@ -31,15 +32,21 @@
             else {
                 xg.ajax({
                     url: 'http://localhost:31604/api/user/LoginUser',
-                    type: 'POST',
                     data: JSON.stringify(employee),
+                    type: 'POST',
                     contentType: "application/json; charset=utf-8",
                     success: function (data) {
                         console.log(data);
+                        tempString = data;
                     },
                     complete: function () {
-                        xg.navigate('PR/Learn');
-                        console.log("Complete");
+                        if (tempString === "No data") {
+                            alert("Can't Login");
+                        } else {
+                            xg.navigate('PR/RequestPR');
+                            console.log("Complete");
+                        }
+                        
                     
                     }
                 });

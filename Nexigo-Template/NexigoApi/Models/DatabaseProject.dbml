@@ -1,22 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Project Makers4" Class="DatabaseProjectDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=YHAYA-PC\ANR;Initial Catalog=&quot;Project Makers4&quot;;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Project_Makers4ConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Makers4" Class="DatabaseProjectDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=52.187.4.154,49172;Initial Catalog=Makers4;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Makers4ConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Budget_Source" Member="Budget_Sources">
     <Type Name="Budget_Source">
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="Field_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="Owner" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-    </Type>
-  </Table>
-  <Table Name="dbo.Submition" Member="Submitions">
-    <Type Name="Submition">
-      <Column Name="ProcessID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="CreateBy" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
-      <Column Name="SubmittedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
-      <Column Name="Status" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Employee" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="EvaluationBy" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Evaluation" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
   <Table Name="dbo.Comment_History" Member="Comment_Histories">
@@ -33,33 +21,14 @@
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="Division_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="Manager_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Association Name="Division_Employee" Member="Employees" ThisKey="Id" OtherKey="Division_Code" Type="Employee" />
-    </Type>
-  </Table>
-  <Table Name="dbo.Employee" Member="Employees">
-    <Type Name="Employee">
-      <Column Name="StaffID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="Staff_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Profil_Picture" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
-      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Staff_Level" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="Division_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="Address" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Column Name="Joined_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
-      <Column Name="Expat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="Contract" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Association Name="Division_Employee" Member="Division" ThisKey="Division_Code" OtherKey="Id" Type="Division" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
-      <Association Name="Expat_Employee" Member="Expat1" ThisKey="Expat" OtherKey="Id" Type="Expat" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
-      <Association Name="Staff_Level_Employee" Member="Staff_Level1" ThisKey="Staff_Level" OtherKey="Id" Type="Staff_Level" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Division_UserMaster" Member="UserMasters" ThisKey="Id" OtherKey="Division_Code" Type="UserMaster" />
     </Type>
   </Table>
   <Table Name="dbo.Expats" Member="Expats">
     <Type Name="Expat">
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Association Name="Expat_Employee" Member="Employees" ThisKey="Id" OtherKey="Expat" Type="Employee" />
+      <Association Name="Expat_UserMaster" Member="UserMasters" ThisKey="Id" OtherKey="Expat" Type="UserMaster" />
     </Type>
   </Table>
   <Table Name="dbo.ItemRequest" Member="ItemRequests">
@@ -89,8 +58,8 @@
       <Association Name="Material_Group_Material" Member="Material_Group" ThisKey="Group_Id" OtherKey="Id" Type="Material_Group" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
     </Type>
   </Table>
-  <Table Name="dbo.Requester" Member="Requesters">
-    <Type Name="Requester">
+  <Table Name="dbo.Request_Information" Member="Request_Informations">
+    <Type Name="Request_Information">
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="Requester_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="Requester_Position" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
@@ -105,13 +74,85 @@
       <Column Name="Justification" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="BPM_PR_Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
       <Column Name="Creation_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Material_Group" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Item" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Estimate_Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Total_Estimate_Price" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sources" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Reviewer" Member="Reviewers">
+    <Type Name="Reviewer">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name_Reviewer" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserMaster" Member="UserMasters">
+    <Type Name="UserMaster">
+      <Column Name="StaffID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Staff_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Profil_Picture" Type="System.String" DbType="NVarChar(300) NOT NULL" CanBeNull="false" />
+      <Column Name="Gender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Staff_Level" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Division_Code" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Joined_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Expat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Contract" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Division_UserMaster" Member="Division" ThisKey="Division_Code" OtherKey="Id" Type="Division" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Expat_UserMaster" Member="Expat1" ThisKey="Expat" OtherKey="Id" Type="Expat" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Staff_Level_UserMaster" Member="Staff_Level1" ThisKey="Staff_Level" OtherKey="Id" Type="Staff_Level" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
     </Type>
   </Table>
   <Table Name="dbo.Staff_Level" Member="Staff_Levels">
     <Type Name="Staff_Level">
       <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="Field_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
-      <Association Name="Staff_Level_Employee" Member="Employees" ThisKey="Id" OtherKey="Staff_Level" Type="Employee" />
+      <Association Name="Staff_Level_UserMaster" Member="UserMasters" ThisKey="Id" OtherKey="Staff_Level" Type="UserMaster" />
+    </Type>
+  </Table>
+  <Table Name="dbo.RequestProcess" Member="RequestProcesses">
+    <Type Name="RequestProcess">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Requester_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="ProcessId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Requester_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Requester_Position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Divison" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Currency" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Expected_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="BudgetSource" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Justification" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Material_Group" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Item" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Estimate_Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Total_Estimate_Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BudgetSources" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaterialPicture" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="SubmittedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Manager_Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Submition" Member="Submitions">
+    <Type Name="Submition">
+      <Column Name="ProcessID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Requester_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Requester_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="SubmittedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reviewer_Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

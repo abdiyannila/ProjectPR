@@ -18,11 +18,11 @@
         {
             text: 'Learn',
             link: 'PR/Learn',
+        },
+        {
+            text: 'tabel',
+            link: 'PR/tabel'
         }
-        //{
-        //    text: 'tabel',
-        //    link: 'PR/tabel'
-        //}
         //{
         //    link: 'showcode',
         //    hidelink: true,
